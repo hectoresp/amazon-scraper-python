@@ -7,6 +7,8 @@
 
 This program scrapes anything from Amazon. You can specify the type of article you want and it will scrape it for you.
 
+It creates a Excel file with the article names, prices, ratings and links.
+
 Note: This program only works with Amazon ES and EURO. Please do not change the Amazon URL to another country because it won't work.
 
 ## Technologies
@@ -39,6 +41,7 @@ Plyer is used to show notifications.
 ```
 $ pip install Xlsxwriter
 ```
+Xlsxwriter is used to create the Excel file.
 
 ## Setup
 
